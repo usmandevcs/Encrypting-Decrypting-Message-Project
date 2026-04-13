@@ -52,8 +52,9 @@ def main():
         else:
             print("Invalid choice. Please enter 'E' for encrypt or 'D' for decrypt.")
         continue_choice = input("Do you want to continue? (Y/N): ").upper()
-        if continue_choice != 'Y':
+        if continue_choice != "Y":
             print("Thank you for using the Encrypting & Decrypting Messages program. Goodbye!")
             break
+
 if __name__ == "__main__":
     main()
